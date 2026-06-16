@@ -1,4 +1,4 @@
-name: Build wac_site_acosta Docker Image
+name: Build wac_site_costa Docker Image
 
 on:
   push:
@@ -32,8 +32,8 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository_owner }}/wac_site_acosta:latest
-            ghcr.io/${{ github.repository_owner }}/wac_site_acosta:${{ github.sha }}
+            ghcr.io/${{ github.repository_owner }}/wac_site_costa:latest
+            ghcr.io/${{ github.repository_owner }}/wac_site_costa:${{ github.sha }}
           labels: |
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
             org.opencontainers.image.revision=${{ github.sha }}
@@ -48,17 +48,17 @@ jobs:
           echo "## 🚀 Docker Image Built Successfully" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**📦 Images Created:**" >> $GITHUB_STEP_SUMMARY
-          echo "- \`ghcr.io/${{ github.repository_owner }}/wac_site_acosta:latest\`" >> $GITHUB_STEP_SUMMARY
-          echo "- \`ghcr.io/${{ github.repository_owner }}/wac_site_acosta:${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`ghcr.io/${{ github.repository_owner }}/wac_site_costa:latest\`" >> $GITHUB_STEP_SUMMARY
+          echo "- \`ghcr.io/${{ github.repository_owner }}/wac_site_costa:${{ github.sha }}\`" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**📥 Pull Command:**" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`bash" >> $GITHUB_STEP_SUMMARY
-          echo "docker pull ghcr.io/${{ github.repository_owner }}/wac_site_acosta:latest" >> $GITHUB_STEP_SUMMARY
+          echo "docker pull ghcr.io/${{ github.repository_owner }}/wac_site_costa:latest" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "**🚀 Run Command:**" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`bash" >> $GITHUB_STEP_SUMMARY
-          echo "docker run -d --name wac_site_acosta -p 4006:4006 ghcr.io/${{ github.repository_owner }}/wac_site_acosta:latest" >> $GITHUB_STEP_SUMMARY
+          echo "docker run -d --name wac_site_costa -p 4006:4006 ghcr.io/${{ github.repository_owner }}/wac_site_costa:latest" >> $GITHUB_STEP_SUMMARY
           echo "\`\`\`" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          echo "🔗 [View Package on GitHub](https://github.com/${{ github.repository_owner }}?tab=packages&q=wac_site_acosta)" >> $GITHUB_STEP_SUMMARY
+          echo "🔗 [View Package on GitHub](https://github.com/${{ github.repository_owner }}?tab=packages&q=wac_site_costa)" >> $GITHUB_STEP_SUMMARY
