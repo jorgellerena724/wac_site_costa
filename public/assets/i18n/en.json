@@ -1,0 +1,299 @@
+{
+  "notifications": {
+    "success": {
+      "message_sent": "Message sent successfully",
+      "testimonial_sent": "Thank you for your review!"
+    },
+    "error": {
+      "email_failed": "Error sending email.",
+      "name_required": "Please enter your name",
+      "message_required": "Please write your review",
+      "rating_required": "Please select a rating",
+      "testimonial_failed": "There was an error sending your review. Please try again."
+    }
+  },
+  "whatsapp": {
+    "greeting": "Hello, I just sent a travel request. Here are the details:",
+    "subject_label": "Subject",
+    "address_label": "Address",
+    "phone_label": "Phone",
+    "message_label": "Message"
+  },
+  "navbar": {
+    "about": "About",
+    "contact": "Contact",
+    "home": "Home",
+    "products": "Services"
+  },
+  "home": {
+    "products": {
+      "subtitle": {
+        "first": "Travel Made ",
+        "second": "Easy"
+      },
+      "text": "Discover the perfect escape with the best travel experiences curated just for you. From exotic beaches to vibrant cities, we make every journey unforgettable.",
+      "square": {
+        "left": {
+          "title": "Committed to excellence",
+          "text": "Every trip is planned with the highest standards of quality and care, backed by years of experience and deep destination knowledge. We ensure safe, seamless, and memorable travel experiences designed around you."
+        },
+        "right": {
+          "title": "Explore Beyond",
+          "text": "We bring together the world's most stunning destinations and modern travel trends, creating transformative journeys that adapt to your style and elevate your wanderlust."
+        },
+        "bottom": {
+          "title": "Ready for your next adventure?",
+          "text": "Browse our curated travel packages and find the perfect getaway to relax your mind, explore new cultures, and recharge your spirit.",
+          "button": "View Full Catalog"
+        }
+      }
+    },
+    "reviews": {
+      "title": "What Our Travelers Say",
+      "subtitle": "Real Reviews",
+      "text": "Our travelers' satisfaction is our greatest achievement and motivation.",
+      "nodata": "We don't have reviews to show yet.",
+      "count": "reviews"
+    },
+    "testimonial": {
+      "form": {
+        "title": "Share Your Experience",
+        "subtitle": "Your review helps other travelers learn about the quality of our services",
+        "nameLabel": "Name",
+        "namePlaceholder": "Enter your full name",
+        "ratingLabel": "Rating",
+        "ratingNone": "No rating",
+        "messageLabel": "Your Comment",
+        "messagePlaceholder": "Share your travel experience with us...",
+        "imageLabel": "Photo",
+        "imageUpload": "Click to upload a photo or drag one here",
+        "imageFormat": "PNG, JPG, GIF up to 5MB",
+        "submit": "Submit"
+      }
+    },
+    "footer": {
+      "text": "Start planning your dream trip today.",
+      "leftbutton": "Contact us",
+      "rightbutton": "Learn more"
+    }
+  },
+  "about": {
+    "title": "About",
+    "subtitle": "Discover our story, values, and the team behind this travel agency.",
+    "nodata": "There is no information to show at the moment.",
+    "nodata.company": "We don't have company information to show yet.",
+    "team": {
+      "title": "Our Team",
+      "subtitle": "The people behind your adventures",
+      "text": "A group of travel enthusiasts passionate about creating unforgettable experiences."
+    },
+    "nodata.team": "No team information available.",
+    "reviews": {
+      "title": "Our Travelers Reviews",
+      "subtitle": "What they say about us",
+      "text": "Our travelers satisfaction is our greatest achievement and motivation."
+    }
+  },
+  "products": {
+    "title": {
+      "first": "Our ",
+      "second": "Services"
+    },
+    "text": "Discover curated travel packages designed to inspire your soul, broaden your horizons, and elevate your journey.",
+    "button": "All",
+    "nodata": "There are no services available at this time.",
+    "nodata.category": "There are no services available in this category.",
+    "seedetails": "See Details",
+    "details": "Details",
+    "info": "Request information",
+    "swipe": "← Swipe to see more categories →",
+    "cta": "View Services"
+  },
+  "appointment": {
+    "cancel": "Cancel",
+    "confirm": "Pay to Reserve",
+    "back": "Back",
+    "availableTimes": "Available Times",
+    "selectDate": "Select a date to see available times",
+    "summary": "Booking Summary",
+    "product": "Package",
+    "dateTime": "Date & Time",
+    "processing": "Processing...",
+    "preparingForm": "Preparing your booking form",
+    "days": {
+      "sun": "Sun",
+      "mon": "Mon",
+      "tue": "Tue",
+      "wed": "Wed",
+      "thu": "Thu",
+      "fri": "Fri",
+      "sat": "Sat"
+    },
+    "form": {
+      "title": "Your Information",
+      "name": "Your Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+1 (555) 123-4567",
+      "location": "Pickup location",
+      "locationPlaceholder": "Enter your pickup address or meeting point",
+      "notes": "Additional Notes",
+      "notesPlaceholder": "Any special requests or additional information...",
+      "terms": "By continuing, you accept our terms of use and privacy policy."
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "text": "We're here to help you plan your next trip. Contact us and we'll respond as soon as possible.",
+    "calling": "Calling...",
+    "square": {
+      "left": {
+        "title": "Send us an email",
+        "email": {
+          "title": "Email",
+          "placeholder": "example@email.com",
+          "error": "Please enter a valid email address"
+        },
+        "subject": {
+          "title": "Subject",
+          "placeholder": "Subject of your message",
+          "error": "The subject is required"
+        },
+        "phone": {
+          "title": "Your phone number",
+          "placeholder": "Enter your phone number",
+          "error": "Phone number is required"
+        },
+        "address": {
+          "title": "Address",
+          "placeholder": "Enter your full address",
+          "error": "The address is required"
+        },
+        "message": {
+          "title": "Message",
+          "placeholder": "Write your message here",
+          "required": "The message is required",
+          "minlength": "The message must be at least 10 characters"
+        },
+        "button": "Send message"
+      },
+      "right": {
+        "title": "Contact Info",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address",
+        "button": "Click to view on Google Maps",
+        "email.hint": "Click to send an email",
+        "phone.hint": "Click to contact via WhatsApp",
+        "scheduleButton": "Book a Trip"
+      }
+    },
+    "noContactInfo": "No contact information available"
+  },
+  "footer": {
+    "title": "Site developed for",
+    "copyright": "Shirkasoft. All rights reserved.",
+    "whatsapp": "Contact us via WhatsApp",
+    "email": "Send us an email",
+    "link": "Visit our website",
+    "column": {
+      "left": {
+        "first": "At",
+        "second": "we specialize in creating unforgettable travel experiences — from relaxing beach getaways to thrilling cultural adventures, designed to inspire and rejuvenate you.",
+        "third": "We especially thank",
+        "fourth": "for the development and design of our website. Their excellent work connects us better with you!"
+      },
+      "center": {
+        "title": "Quick Links",
+        "first": "Home",
+        "second": "About Us",
+        "third": "What We Offer",
+        "fourth": "Contact"
+      },
+      "right": "Contact Us",
+      "social": {
+        "title": "Our Networks"
+      }
+    },
+    "noContactInfo": "No contact information available",
+    "noSocialNetworks": "No social networks available"
+  },
+  "chat": {
+    "title": "Shirka",
+    "subtitle": "Virtual assistant",
+    "close": "Close chat",
+    "open": "Open chat",
+    "welcome": {
+      "title": "Hello! I'm Shirka 🦾",
+      "subtitle": "How can I help you today?",
+      "button": "Start conversation",
+      "message": "Hello! I'm Shirka, your virtual assistant. Welcome to Touch Reef, your trusted travel agency. How can I help you plan your next adventure today?"
+    },
+    "user": "You",
+    "botName": "Shirka",
+    "input": {
+      "placeholder": "Type your message..."
+    },
+    "clear": "Clear chat",
+    "bot": {
+      "response": "Thank you for your message: \"{{message}}\". I'm an assistant in development, but I'm here to help you."
+    }
+  },
+  "common": {
+    "contact": "Contact",
+    "scrollTop": "Go to top",
+    "updateAvailable": "New version available - Update",
+    "loading": "Loading...",
+    "sending": "Sending...",
+    "videoNotSupported": "Your browser does not support the video tag.",
+    "fullscreen": "View fullscreen",
+    "download": "Download File",
+    "zoomIn": "Zoom in",
+    "zoomMedia": "View in fullscreen",
+    "previousImage": "Previous image",
+    "nextImage": "Next image",
+    "close": "Close"
+  },
+  "bookings": {
+    "title": "Book Your Trip",
+    "subtitle": "Select the destination you want and book your trip easily and quickly.",
+    "variants": "Options",
+    "bookNow": "Book Now",
+    "noServices": "No packages available",
+    "noServicesText": "We currently have no travel packages available to display.",
+    "scheduling": "Book Trip",
+    "goBack": "Go Back"
+  },
+  "socialNetworks": {
+    "whatsapp": {
+      "hint": "Click to send a message via WhatsApp"
+    },
+    "facebook": {
+      "hint": "Visit us on Facebook"
+    },
+    "instagram": {
+      "hint": "Follow us on Instagram"
+    },
+    "tiktok": {
+      "hint": "Visit our TikTok"
+    },
+    "x": {
+      "hint": "Follow us on X"
+    },
+    "telegram": {
+      "hint": "Join our Telegram channel"
+    },
+    "linkedin": {
+      "hint": "Connect with us on LinkedIn"
+    },
+    "youtube": {
+      "hint": "Subscribe to our YouTube channel"
+    },
+    "default": {
+      "label": "Red Social",
+      "hint": "Visita nuestro perfil"
+    }
+  }
+}
