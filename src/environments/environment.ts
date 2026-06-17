@@ -8,9 +8,6 @@ export const environment = {
   api_security: `${apiUrl}auth/`,
   imgPath: imgPath,
   BUILD_TS: 0,
-  /*FRONT_TOKEN:
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImxpYW5hLmxvcmVuem9AdG91Y2hhbmRib29rLmNvbSIsImZ1bGxfbmFtZSI6IlRvdWNoIFJlZWYiLCJjbGllbnQiOiJ0b3VjaF9yZWVmIn0.t9Nz0jcETCBE8ZMWESdoYFDwRPMaI_zUiuui4DeE2Hg',
-*/
   FRONT_TOKEN:
-    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InRvdWNocmVlZkBzaGlya2Fzb2Z0LmNvbSIsImZ1bGxfbmFtZSI6IlRvdWNoIFJlZWYiLCJjbGllbnQiOiJ0b3VjaF9yZWVmIiwic291cmNlIjoid2Vic2l0ZSJ9.2GqJN05BcZMHlExZ27xVg7inlZCDILLXCModoCVH0uM',
+    'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImNvc3RhY29tcGFzc0BzaGlya2Fzb2Z0LmNvbSIsImZ1bGxfbmFtZSI6IkNvc3RhIENvbXBhc3MiLCJjbGllbnQiOiJjb3N0YV9jb21wYXNzIiwic291cmNlIjoid2Vic2l0ZSJ9.mGKLw0TXL7zJMxuERHzaCD2d5RBeCDZxHyOWS5k8b7U',
 };
