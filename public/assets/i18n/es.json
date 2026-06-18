@@ -19,10 +19,11 @@
     "phone_label": "Tel\u00e9fono",
     "message_label": "Mensaje"
   },
-  "navbar": {
-    "about": "Qui\u00e9nes Somos",
+"navbar": {
+    "about": "Quiénes Somos",
     "contact": "Contactar",
     "home": "Inicio",
+    "language": "Idioma",
     "products": "Servicios"
   },
   "home": {
